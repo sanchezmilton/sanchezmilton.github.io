@@ -64,7 +64,7 @@ const CONFIG = {
       'https://raw.githubusercontent.com/sanchezmilton/sanchezmilton.github.io/refs/heads/main/public/building-2.svg',
     link: 'https://www.grupoesi.com',
   },
-];
+]
 
     },
   },
