@@ -2,19 +2,19 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'sanchezmilton', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
-  projects: {
+  base: '/',
+/*  projects: {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -27,35 +27,52 @@ const CONFIG = {
         // Properties for manually specifying projects
         projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
-    },
+    },*/
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-      ],
+  {
+    title: 'Consulta de Precios',
+    description:
+      'Tool for quickly retrieving and verifying product prices across the Grupo ESI ecosystem. I collaborated on development and improvements to streamline data lookup workflows.',
+    imageUrl:
+      'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+    link: 'https://precios.urbaniasa.com',
+  },
+  {
+    title: 'Consulta de Calificaciones',
+    description:
+      'System used to check and validate customer or provider rating data in real time. I contributed enhancements that improved accuracy and usability within operational processes.',
+    imageUrl:
+      'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+    link: 'https://calificaciones.com.ar/',
+  },
+  {
+    title: 'Control de Fojas de Reparto',
+    description:
+      'Operational tool for managing delivery logs (fojas), allowing teams to track distribution records more efficiently. I worked on features and optimizations that improved daily workflow reliability.',
+    imageUrl:
+      'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+    link: 'https://www.grupoesi.com',
+  },
+  {
+    title: 'Verscom ERP Web',
+    description:
+      'Web interface for the Verscom ERP platform, part of the Grupo ESI ecosystem. I collaborated on UI and functional components, improving user experience and streamlining interactions within the system.',
+    imageUrl:
+      'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+    link: 'https://www.grupoesi.com',
+  },
+];
+
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { title: 'Portfolio of Milton Sánchez', description: 'Developer focused on practical solutions. Contributed to price lookup, rating tools, delivery logs, and ERP web UI.', imageURL: '' },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'sanchezmilton',
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -65,74 +82,57 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://www.sanchezmilton.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'sanchezgonzalezmilton@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://docs.google.com/document/d/1sUsIhYh4JYyOZjJBmlKivviuF-7j5NBG/edit?usp=sharing&ouid=113013342289472182370&rtpof=true&sd=true', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
+    'HTML',
     'CSS',
-    'Antd',
+    'JavaScript',
+    'TypeScript',
+    'React.js',
+    'Next.js',
     'Tailwind',
+    'Node.js',
+    'MySQL',
+    'Git',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Grupo ESI',
+      position: 'Web Developer',
+      from: 'October 2021',
+      to: 'November 2025',
+      companyLink: 'https://grupoesi.com',
     },
   ],
-  certifications: [
+/*  certifications: [
     {
       name: 'Lorem ipsum',
       body: 'Lorem ipsum dolor sit amet',
       year: 'March 2022',
       link: 'https://example.com',
     },
-  ],
+  ],*/
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Universidad Atlántida Argentina',
+      degree: 'Bachelor's Degree',
+      from: '2023',
+      to: '2025',
     },
   ],
-  publications: [
+/*  publications: [
     {
       title: 'Publication Title',
       conferenceName: '',
@@ -151,13 +151,13 @@ const CONFIG = {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
-  ],
+  ],*/
   // Display articles from your medium or dev account. (Optional)
-  blog: {
+/*  blog: {
     source: 'dev', // medium | dev
     username: 'arifszn', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
-  },
+  },*/
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
@@ -168,7 +168,7 @@ const CONFIG = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
