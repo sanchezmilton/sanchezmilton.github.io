@@ -64,9 +64,8 @@ const CONFIG = {
       'https://raw.githubusercontent.com/sanchezmilton/sanchezmilton.github.io/refs/heads/main/public/building-2.svg',
     link: 'https://www.grupoesi.com',
   },
-]
+],
 
-    },
   },
   seo: { title: 'Portfolio of Milton Sánchez', description: 'Developer focused on practical solutions. Contributed to price lookup, rating tools, delivery logs, and ERP web UI.', imageURL: 'https://raw.githubusercontent.com/sanchezmilton/sanchezmilton.github.io/refs/heads/main/public/code-xml.svg' },
   social: {
