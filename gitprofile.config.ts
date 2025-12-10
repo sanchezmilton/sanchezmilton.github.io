@@ -10,7 +10,7 @@ const CONFIG = {
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
   base: '/',
-/*  projects: {
+  projects: {
     github: {
       display: false, // Display GitHub projects?
       header: 'Github Projects',
@@ -27,7 +27,7 @@ const CONFIG = {
         // Properties for manually specifying projects
         projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
-    },*/
+    },
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
@@ -65,7 +65,7 @@ const CONFIG = {
     link: 'https://www.grupoesi.com',
   },
 ],
-
+},
   },
   seo: { title: 'Portfolio of Milton Sánchez', description: 'Developer focused on practical solutions. Contributed to price lookup, rating tools, delivery logs, and ERP web UI.', imageURL: 'https://raw.githubusercontent.com/sanchezmilton/sanchezmilton.github.io/refs/heads/main/public/code-xml.svg' },
   social: {
