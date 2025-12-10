@@ -12,7 +12,7 @@ const CONFIG = {
   base: '/',
 /*  projects: {
     github: {
-      display: true, // Display GitHub projects?
+      display: false, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
@@ -86,7 +86,7 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
-    website: 'https://www.sanchezmilton.github.io',
+    website: '',
     phone: '',
     email: 'sanchezgonzalezmilton@gmail.com',
   },
