@@ -127,7 +127,7 @@ const CONFIG = {
   educations: [
     {
       institution: 'Universidad Atlántida Argentina',
-      degree: 'Bachelor's Degree',
+      degree: "Bachelor's Degree",
       from: '2023',
       to: '2025',
     },
