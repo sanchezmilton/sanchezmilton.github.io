@@ -37,7 +37,7 @@ const CONFIG = {
     description:
       'Tool for quickly retrieving and verifying product prices across the Grupo ESI ecosystem. I collaborated on development and improvements to streamline data lookup workflows.',
     imageUrl:
-      'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+      'https://raw.githubusercontent.com/sanchezmilton/sanchezmilton.github.io/refs/heads/main/public/badge-percent.svg',
     link: 'https://precios.urbaniasa.com',
   },
   {
@@ -45,15 +45,15 @@ const CONFIG = {
     description:
       'System used to check and validate customer or provider rating data in real time. I contributed enhancements that improved accuracy and usability within operational processes.',
     imageUrl:
-      'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+      'https://raw.githubusercontent.com/sanchezmilton/sanchezmilton.github.io/refs/heads/main/public/notebook-text.svg',
     link: 'https://calificaciones.com.ar/',
   },
   {
     title: 'Control de Fojas de Reparto',
     description:
-      'Operational tool for managing delivery logs (fojas), allowing teams to track distribution records more efficiently. I worked on features and optimizations that improved daily workflow reliability.',
+      'Operational tool for managing delivery logs, allowing teams to track distribution records more efficiently. I worked on features and optimizations that improved daily workflow reliability.',
     imageUrl:
-      'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+      'https://raw.githubusercontent.com/sanchezmilton/sanchezmilton.github.io/refs/heads/main/public/truck.svg',
     link: 'https://www.grupoesi.com',
   },
   {
@@ -61,14 +61,14 @@ const CONFIG = {
     description:
       'Web interface for the Verscom ERP platform, part of the Grupo ESI ecosystem. I collaborated on UI and functional components, improving user experience and streamlining interactions within the system.',
     imageUrl:
-      'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+      'https://raw.githubusercontent.com/sanchezmilton/sanchezmilton.github.io/refs/heads/main/public/building-2.svg',
     link: 'https://www.grupoesi.com',
   },
 ];
 
     },
   },
-  seo: { title: 'Portfolio of Milton Sánchez', description: 'Developer focused on practical solutions. Contributed to price lookup, rating tools, delivery logs, and ERP web UI.', imageURL: '' },
+  seo: { title: 'Portfolio of Milton Sánchez', description: 'Developer focused on practical solutions. Contributed to price lookup, rating tools, delivery logs, and ERP web UI.', imageURL: 'https://raw.githubusercontent.com/sanchezmilton/sanchezmilton.github.io/refs/heads/main/public/code-xml.svg' },
   social: {
     linkedin: 'sanchezmilton',
     x: '',
