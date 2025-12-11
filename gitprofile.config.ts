@@ -33,7 +33,7 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
   {
-    title: 'Consulta de Precios',
+    title: 'Price Lookup app',
     description:
       'Tool for quickly retrieving and verifying product prices across the Grupo ESI ecosystem. I collaborated on development and improvements to streamline data lookup workflows.',
     imageUrl:
@@ -41,7 +41,7 @@ const CONFIG = {
     link: 'https://precios.urbaniasa.com',
   },
   {
-    title: 'Consulta de Calificaciones',
+    title: 'Calification Lookup app',
     description:
       'System used to check and validate customer or provider rating data in real time. I contributed enhancements that improved accuracy and usability within operational processes.',
     imageUrl:
@@ -49,7 +49,7 @@ const CONFIG = {
     link: 'https://calificaciones.com.ar/',
   },
   {
-    title: 'Control de Fojas de Reparto',
+    title: 'Control of Distribution Sheets App',
     description:
       'Operational tool for managing delivery logs, allowing teams to track distribution records more efficiently. I worked on features and optimizations that improved daily workflow reliability.',
     imageUrl:
@@ -57,7 +57,7 @@ const CONFIG = {
     link: 'https://www.grupoesi.com',
   },
   {
-    title: 'Verscom ERP Web',
+    title: 'Verscom ERP App',
     description:
       'Web interface for the Verscom ERP platform, part of the Grupo ESI ecosystem. I collaborated on UI and functional components, improving user experience and streamlining interactions within the system.',
     imageUrl:
